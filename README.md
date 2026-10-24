@@ -1,17 +1,18 @@
 # Arpita Datta — Personal Website
 
-A standalone static website. Hosting does not depend on ChatGPT.
+Live website: https://arpitadatta99.github.io/
 
-## Publish on GitHub Pages
+## Edit your website on GitHub
 
-1. Create a public repository named YOUR-USERNAME.github.io for a personal address, or any repository name for a project website.
-2. Add all files in this folder, including .github/workflows/deploy.yml and .nojekyll, to the main branch. index.html must be at the repository root.
-3. In repository Settings → Pages, choose GitHub Actions as the source.
-4. Open Actions and run the Deploy website to GitHub Pages workflow if it has not run automatically.
-5. Use the URL shown by the completed deployment.
+1. Open index.html in this repository.
+2. Click the pencil icon (Edit this file).
+3. Edit your text or styling and commit changes to main.
+4. GitHub Pages automatically publishes the updated website. Allow a few minutes for deployment.
 
-## Edit your site on GitHub
+Replace Arpita.png with a new image using the same filename to update your portrait.
 
-Open index.html, click the pencil icon, edit the content, and commit to main. The workflow publishes the updated website automatically. Replace Arpita.png to change the portrait, keeping the filename the same.
+## Hosting
 
-Your design portfolio remains embedded from https://arpitadatta.netlify.app/ and opens through the Design portfolio links.
+GitHub Pages publishes from the main branch, root folder. Settings → Pages → Deploy from a branch → main → / (root).
+
+No custom workflow or ChatGPT hosting is required. Your design portfolio is embedded from https://arpitadatta.netlify.app/.
